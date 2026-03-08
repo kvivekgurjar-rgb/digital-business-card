@@ -1,0 +1,42 @@
+#-----PYTHON / DJANGO------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*pyd
+.Python
+*.SO
+
+#Virtual enviroment
+venv/
+env/
+.venv/
+ENV/
+
+#Django
+*.log
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+#NEVER commit these - they contain passwords adn seceret keys
+.env
+.env.local
+.env.production
+.env.*
+!.env.example
+
+# -- NODE / REACT -------------------------------
+node_modules/
+dist/
+dist-ssr/
+*.local
+.vite/
+
+# -- EDITORS ------------------------------------
+.vscode/
+.idea/
+*.swp
+*swo
+.DS_Store
+Thumbs.db
