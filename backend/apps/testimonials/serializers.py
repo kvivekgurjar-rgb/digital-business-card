@@ -2,7 +2,7 @@ from rest_framework import serializers
 from .models import Testimonial
 
 
-class TestimonialSerializer(serializers.ModelSrializer):
+class TestimonialSerializer(serializers.ModelSerializer):
     avatar_url = serializers.SerializerMethodField()
 
     class Meta:

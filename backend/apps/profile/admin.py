@@ -9,7 +9,7 @@ class ProfileAdmin(admin.ModelAdmin):
     fieldsets = (
         ('Identity', {'fields': ('full_name', 'title', 'tagline', 'bio', 'avatar', 'resume_url', 'years_experience')}),
         ('Location', {'fields': ('location', 'timezone', 'available_for_work')}),
-        ('Contact', {'fields': ('email')}),
+        ('Contact', {'fields': ('email',)}),
         ('Social', {'fields': ('github_url', 'linkedin_url', 'x_url', 'website_url')}),
         ('Meta', {'fields': ('updated_at',), 'classes': ('collapse',)}),
     )
