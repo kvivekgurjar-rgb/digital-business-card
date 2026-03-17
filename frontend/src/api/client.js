@@ -17,7 +17,7 @@ client.interceptors.request.use(
 );
 
 // Clear token on 401
-client.interceptors.response.user(
+client.interceptors.response.use(
     (response) => response,
     (error) => {
         if (error.response?.status === 401) {

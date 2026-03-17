@@ -1,9 +1,9 @@
 import { Toaster }    from 'react-hot-toast';
 import Navbar         from './components/layout/Navbar.jsx';
-import Footer         from './components/sections/Footer.jsx';
+import Footer         from './components/layout/Footer.jsx';
 import Hero           from './components/sections/Hero.jsx';
 import Skills         from './components/sections/Skills.jsx';
-import Project        from './components/sections/Project.jsx';
+import Project        from './components/sections/Projects.jsx';
 import Testimonials   from './components/sections/Testimonials.jsx';
 import Contact        from './components/sections/Contact.jsx';
 
@@ -29,7 +29,7 @@ export default function App() {
             <Navbar />
             <main>
                 <Hero />
-                <Skill />
+                <Skills />
                 <Project />
                 <Testimonials />
                 <Contact />
